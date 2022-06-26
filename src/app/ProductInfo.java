@@ -26,6 +26,9 @@ public class ProductInfo {
         showTitle();
         purchase05(showList());
         showTitle02();
+        showTitle();
+        purchase06(showList());
+        showTitle02();
     }
 
     private static Product getProductOne() {
@@ -87,8 +90,16 @@ public class ProductInfo {
 
     private static void purchase05(List<Product> products) {
         List<Product> purchase05 = new ArrayList<>(products);
-        System.out.println(purchase05.isEmpty());
 
+        System.out.println(purchase05.isEmpty());
+    }
+
+    private static void purchase06(List<Product> products) {
+        List<Product> purchase06 = new ArrayList<>(products);
+        purchase06.remove(getProductTwo());
+        purchase06.remove(0);
+
+        System.out.println(purchase06);
     }
 
     private static void showTitle() {
