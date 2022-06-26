@@ -23,6 +23,9 @@ public class ProductInfo {
         showTitle();
         purchase04(showList());
         showTitle02();
+        showTitle();
+        purchase05(showList());
+        showTitle02();
     }
 
     private static Product getProductOne() {
@@ -82,12 +85,18 @@ public class ProductInfo {
         System.out.println(purchase04.get(1));
     }
 
+    private static void purchase05(List<Product> products) {
+        List<Product> purchase05 = new ArrayList<>(products);
+        System.out.println(purchase05.isEmpty());
+
+    }
+
     private static void showTitle() {
         score++;
         System.out.println("--- Purchase Info " + score + " ---");
     }
 
     private static void showTitle02() {
-        System.out.println("-----------------------------------");
+        System.out.println("----------------------------------\n");
     }
 }
