@@ -7,9 +7,22 @@ import java.util.List;
 
 public class ProductInfo {
 
+    static int score;
+
     public static void main(String[] args) {
         showTitle();
-        purchase01();
+        showList();
+        purchase01(showList());
+        showTitle02();
+        showTitle();
+        purchase02(showList());
+        showTitle02();
+        showTitle();
+        purchase03(showList());
+        showTitle02();
+        showTitle();
+        purchase04(showList());
+        showTitle02();
     }
 
     private static Product getProductOne() {
@@ -28,15 +41,53 @@ public class ProductInfo {
         return product02;
     }
 
-    private static void purchase01() {
+    private static Product getProductThree() {
+        Product product03 = new Product();
+        product03.name = "Cherry";
+        product03.quantity = 4;
+
+        return product03;
+    }
+
+    private static List<Product> showList() {
         List<Product> purchase = new ArrayList<>();
         purchase.add(getProductOne());
         purchase.add(getProductTwo());
 
-        System.out.println(purchase);
+        return purchase;
+    }
+
+    private static void purchase01(List<Product> products) {
+        System.out.println(products);
+    }
+
+    private static void purchase02(List<Product> products) {
+        List<Product> purchase02 = new ArrayList<>(products);
+        purchase02.add(0, getProductThree());
+
+        System.out.println(purchase02);
+    }
+
+    private static void purchase03(List<Product> products) {
+        List<Product> purchase03 = new ArrayList<>(products);
+        purchase03.clear();
+
+        System.out.println(purchase03);
+    }
+
+    private static void purchase04(List<Product> products) {
+        List<Product> purchase04 = new ArrayList<>(products);
+        purchase04.add(getProductThree());
+
+        System.out.println(purchase04.get(1));
     }
 
     private static void showTitle() {
-        System.out.println("---Purchase Info---");
+        score++;
+        System.out.println("--- Purchase Info " + score + " ---");
+    }
+
+    private static void showTitle02() {
+        System.out.println("-----------------------------------");
     }
 }
