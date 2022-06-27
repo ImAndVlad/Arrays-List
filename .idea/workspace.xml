@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa51bca-231f-4d54-8cd4-32c986d3dbf7" name="Changes" comment="Fourth commit">
+    <list default="true" id="baa51bca-231f-4d54-8cd4-32c986d3dbf7" name="Changes" comment="Fifth commit">
+      <change afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/views/ProductView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ProductInfo.java" afterDir="false" />
     </list>
@@ -18,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -36,11 +44,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/38050/Desktop/IT - Hillel/Projects/Arrays-List",
+    "last_opened_file_path": "C:/Users/38050/Desktop/IT - Hillel/Projects/Sales",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProductInfo">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="Arrays-List" />
@@ -69,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductInfo" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.ProductInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656258942579</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fifth commit">
+      <created>1656324201805</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656324201805</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,7 +148,8 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="Third commit" />
     <MESSAGE value="Fourth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth commit" />
+    <MESSAGE value="Fifth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
