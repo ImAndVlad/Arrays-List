@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa51bca-231f-4d54-8cd4-32c986d3dbf7" name="Changes" comment="First commit">
+    <list default="true" id="baa51bca-231f-4d54-8cd4-32c986d3dbf7" name="Changes" comment="Fourth commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/ProductInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ProductInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/app/ProductInfo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/models/Product.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -33,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/38050/Desktop/IT - Hillel/Projects/Lambdas",
+    "last_opened_file_path": "C:/Users/38050/Desktop/IT - Hillel/Projects/Arrays-List",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -90,7 +93,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656254014500</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit">
+      <created>1656257121220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656257121220</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Third commit">
+      <created>1656258325601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656258325602</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fourth commit">
+      <created>1656258942579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656258942579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,7 +130,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Second commit" />
+    <MESSAGE value="Third commit" />
+    <MESSAGE value="Fourth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

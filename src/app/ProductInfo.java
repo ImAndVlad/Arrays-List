@@ -14,20 +14,45 @@ public class ProductInfo {
         showList();
         purchase01(showList());
         showTitle02();
+
         showTitle();
         purchase02(showList());
         showTitle02();
+
         showTitle();
         purchase03(showList());
         showTitle02();
+
         showTitle();
         purchase04(showList());
         showTitle02();
+
         showTitle();
         purchase05(showList());
         showTitle02();
+
         showTitle();
         purchase06(showList());
+        showTitle02();
+
+        showTitle();
+        purchase07(showList());
+        showTitle02();
+
+        showTitle();
+        purchase08(showList());
+        showTitle02();
+
+        showTitle();
+        purchase09(showList());
+        showTitle02();
+
+        showTitle();
+        purchase10(showList());
+        showTitle02();
+
+        showTitle();
+        purchase11(showList());
         showTitle02();
     }
 
@@ -56,6 +81,7 @@ public class ProductInfo {
     }
 
     private static List<Product> showList() {
+        // void add()
         List<Product> purchase = new ArrayList<>();
         purchase.add(getProductOne());
         purchase.add(getProductTwo());
@@ -64,10 +90,12 @@ public class ProductInfo {
     }
 
     private static void purchase01(List<Product> products) {
-        System.out.println(products);
+        // boolean add()
+        System.out.println(products.add(getProductThree()));
     }
 
     private static void purchase02(List<Product> products) {
+        // void add()
         List<Product> purchase02 = new ArrayList<>(products);
         purchase02.add(0, getProductThree());
 
@@ -75,6 +103,7 @@ public class ProductInfo {
     }
 
     private static void purchase03(List<Product> products) {
+        // void clear()
         List<Product> purchase03 = new ArrayList<>(products);
         purchase03.clear();
 
@@ -82,25 +111,59 @@ public class ProductInfo {
     }
 
     private static void purchase04(List<Product> products) {
+        // int get()
         List<Product> purchase04 = new ArrayList<>(products);
         purchase04.add(getProductThree());
 
-        System.out.println(purchase04.get(1));
+        System.out.println(purchase04.get(2));
     }
 
     private static void purchase05(List<Product> products) {
-        List<Product> purchase05 = new ArrayList<>(products);
-
-        System.out.println(purchase05.isEmpty());
+        // boolean isEmpty()
+        System.out.println(products.isEmpty());
     }
 
     private static void purchase06(List<Product> products) {
-        List<Product> purchase06 = new ArrayList<>(products);
-        purchase06.remove(getProductTwo());
-        purchase06.remove(0);
-
-        System.out.println(purchase06);
+        // boolean remove()
+        System.out.println(products.remove(getProductOne()));
     }
+
+    private static void purchase07(List<Product> products) {
+        // remove()
+        System.out.println(products.remove(0));
+    }
+
+    private static void purchase08(List<Product> products) {
+        // set()
+        List<Product> purchase07 = new ArrayList<>(products);
+        purchase07.set(1, new Product());
+
+        System.out.println(purchase07);
+    }
+
+    private static void purchase09(List<Product> products) {
+        // int size()
+        System.out.println(products.size());
+     }
+
+     private static void purchase10(List<Product> products) {
+         // IntList subList()
+        List<Product> purchase09 = new ArrayList<>(products);
+        purchase09.add(getProductThree());
+
+         System.out.println(purchase09.subList(1, 3));
+     }
+
+     private static void purchase11(List<Product> products) {
+         // boolean addAll()
+         Product products02 = new Product();
+         products02.name = "Milk";
+         products02.quantity = 33;
+
+         List<Product> purchase11 = new ArrayList<>();
+         purchase11.add(products02);
+         System.out.println(purchase11.addAll(products));
+     }
 
     private static void showTitle() {
         score++;
